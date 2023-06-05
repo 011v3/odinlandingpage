@@ -1,13 +1,9 @@
 body {
-    font-family: monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
-}
-
-.container {
-    display: flex;
 }
 
 .header {
@@ -15,9 +11,23 @@ body {
     font-size: 18px;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 6px;
+    padding-left: 60px;
     font-weight:600;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-align: left;
+    gap: 10px;
+}
+
+.herobanner {
+    display: flex;
+    justify-content: center;
 }
 
 .heromaintext {
@@ -27,6 +37,7 @@ body {
     align-items: flex-start;
     flex: 1;
     font-size: 48px;
+    height: 250px;
 }
 
 .herosubtext {
@@ -34,14 +45,11 @@ body {
     font-size: 18px;
 }
 
+.herobutton {
+    display: flex;
+}
+
 footer {
     justify-content: center;
     font-size: 15px;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    text-align: left;
-    gap: 10px;
 }
