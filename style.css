@@ -43,6 +43,7 @@ a {
 .heromaintext {
     font-size: 48px;
     max-width: 33.3%;
+    flex: 1;
 }
 
 .herosubtext {
@@ -65,34 +66,27 @@ img {
     border: 3px;
     border-color: #F9FAF8;
     background-color: #1F2937;
-    width: 300px;
-    flex: 1;
+    width: 400px;
     border-radius: 12px;
-    border:#F9FAF8 5px;
 }
 
 .body {
-    text-align: center;
+    display: flex;
+    margin: 10px;
+    gap: 10px; 
+    padding: 16px;
 }
 
 .infoheader {
     font-size: 36px;
     font-weight: 300;
-    margin-bottom: 19px;
+    margin-bottom: 1px;
+    text-align: center;
 }
 
 .card {
-    display: flex;
-    align-items: center;
-    border-color: #3882F6;
-    height: 50px;
-    width: 50px;
-    padding: 25px;
-    margin: 4px;
-}
-
-.text { 
-    display: flex;
+    max-width: 50px;
+    font-size: 18px;
 }
 
 footer {
