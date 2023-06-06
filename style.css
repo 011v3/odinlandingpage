@@ -1,5 +1,5 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,41 +11,87 @@ body {
     font-size: 18px;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 60px;
-    font-weight:600;
+    font-weight: 600;
     justify-content: flex-start;
     align-items: center;
-    width: 100%px;
+    flex: 1;
 }
 
 ul {
     display: flex;
     list-style: none;
     text-align: left;
+    font-size: 12px;
+    font-weight:100;
     gap: 10px;
 }
 
+a {
+    color: #F9FAF8;
+}
+
 .herobanner {
+    font-family: script;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 68px;
 }
 
 .heromaintext {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    align-items: flex-start;
-    flex: 1;
     font-size: 48px;
-    height: 250px;
+    max-width: 33.3%;
 }
 
 .herosubtext {
-    display: flex;
     font-size: 18px;
 }
 
-.herobutton {
+button {
+    display: flex;
+    flex-shrink: none;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    display: flex;
+    justify-content: flex-end;
+    border: 3px;
+    border-color: #F9FAF8;
+    background-color: #1F2937;
+    width: 300px;
+    flex: 1;
+    border-radius: 12px;
+    border:#F9FAF8 5px;
+}
+
+.body {
+    text-align: center;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 19px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border-color: #3882F6;
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    margin: 4px;
+}
+
+.text { 
     display: flex;
 }
 
