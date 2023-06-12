@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, serif;
+    font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,6 @@ ul {
     display: flex;
     list-style: none;
     font-size: 12px;
-    font-weight:100;
     gap: 10px;
 }
 
@@ -36,12 +35,14 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 68px;
+    width: 100%;
 }
 
 .heromaintext {
+    display: flex;
+    flex-direction: column;
     font-size: 48px;
     max-width: 33.3%;
-    flex: 1;
 }
 
 .herosubtext {
@@ -60,6 +61,7 @@ button {
     border-color: #3882F6;
     padding: 8px 16px;
     border-radius: 8px;
+    margin-top: 8px;
 }
 
 img {
@@ -73,7 +75,6 @@ img {
 
 .infoheader {
     font-size: 36px;
-    font-weight: 300;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -83,13 +84,14 @@ img {
 }
 
 .card {
-  max-width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 10px;
+  gap: 10px;
+  padding: 20px;
+  margin: 20px
+  max-width: 100px;
 }
 
 .fishes {
@@ -101,8 +103,32 @@ img {
     font-size: 36px;
     color: #1F2937;
     background-color: #E5E7EB;
-    padding: 16px;
+    padding: 50px;
     text-align: center;
+    margin-top: 23px;
+    width: 100%;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 56px;
+    justify-content: space-between;
+    width: 33.3%;
+}
+
+.actionheader {
+    text-align: left;
+    font-size: 16px;
+}
+
+.actionbutton {
+    display: flex;
+    flex-grow: none;
+    border-color: #E5E7EB;
+    padding: 12px;
+    justify-content: flex-end;
 }
 
 footer {
