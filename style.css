@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: roboto; sans;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,7 @@ body {
 .header {
     display: flex;
     font-size: 18px;
+    font-weight: 500;
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-between;
@@ -22,10 +23,12 @@ ul {
     list-style: none;
     font-size: 12px;
     gap: 10px;
+    font-size: 12px;
 }
 
 a {
     color: #F9FAF8;
+    text-decoration: none;
 }
 
 .herobanner {
@@ -101,6 +104,7 @@ img {
 
 .quote {
     font-size: 36px;
+    font-weight: 100;
     color: #1F2937;
     background-color: #E5E7EB;
     padding: 50px;
@@ -113,9 +117,12 @@ img {
     display: flex;
     background-color: #3882F6;
     color:#E5E7EB;
-    padding: 56px;
+    padding: 15px;
     justify-content: space-between;
     width: 33.3%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
 }
 
 .actionheader {
@@ -127,6 +134,7 @@ img {
     display: flex;
     flex-grow: none;
     border-color: #E5E7EB;
+    border: solid;
     padding: 12px;
     justify-content: flex-end;
 }
